@@ -1,0 +1,97 @@
+div img {}
+
+div ul {
+    list-style: none;
+    margin: 0 auto;
+    /* Set left and right margin to auto */
+    padding: 0;
+    display: flex;
+    /* Use flexbox */
+    justify-content: center;
+    /* Center the flex items horizontally */
+}
+
+div ul li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+div ul li img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    margin-left: 30px;
+    top: 25px;
+}
+
+div ul li title {
+
+    display: inline-block;
+    margin: 20px 0px 0px 10px;
+    vertical-align: middle;
+}
+
+.navbar {
+    padding: .5rem;
+}
+
+.navbar-nav li {
+    padding: 5px 10px 0px 15px;
+
+}
+
+.nav-link {
+    font-size: 1em !important;
+
+
+}
+
+.nav-item:nth-last-child(4),
+.nav-item:nth-last-child(3) {
+    display: inline-block;
+}
+
+
+
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999999;
+}
+
+.header_content {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    flex: 0 1 auto;
+}
+
+.carousel-inner img {
+    width: 100%;
+
+
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0%;
+    transform: translateY(-60%);
+}
+
+.carousel-caption h1 {
+
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #0000;
+    color: black;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: burlywood;
+}

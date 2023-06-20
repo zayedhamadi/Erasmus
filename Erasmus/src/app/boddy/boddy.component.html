@@ -1,0 +1,167 @@
+<!--Jumbotron-->
+<div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <h1 class="lead">Erasmus+ Enriching lives, opening minds</h1>
+            <p style=" margin-right: 20px;"> &nbsp;&nbsp; The new Erasmus+ starts here
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg>
+            </p>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+            <a class="nav-link" routerLink="/IntroErasmusComponent">
+                <button type="button" class="btn btn-outline-secondary btn-lg explore-button"
+                    style=" margin-left: -80px;font-size: medium">Explore
+                    the Erasmus+ programme</button>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="about_section layout_padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid" src="assets/z.jpg" alt="" />
+            </div>
+            <div class="col-md-6">
+                <h1 class="about_text">What's Erasmus+?</h1>
+                <p class="lorem_text">Erasmus+ is the EU's programme to support education, training, youth and sport in
+                    Europe.
+                    It has an estimated budget of €26.2 billion. This is nearly double the funding compared to its
+                    predecessor programme (2014-2020).</p>
+                <p class="text-body">
+                    The 2021-2027 programme places a strong focus on social inclusion, the green and digital
+                    transitions, and promoting young people’s participation in democratic life.
+                </p>
+                <p [ngClass]="{'limitTextHeight': isReadMore}">
+                    It supports priorities and activities set out in the European Education Area, Digital Education
+                    Action Plan and the European Skills Agenda. The programme also supports the European Pillar of
+                    Social Rights, implements the EU Youth Strategy 2019-2027, develops the European dimension in sport,
+                    and nulla architecto amet voluptates?
+                </p>
+
+                <div class="shop_bt_2 btn btn-light mt-3" type="button" (click)="showText()"> {{ isReadMore ? 'Read
+                    More': 'Read Less' }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Welcom Erasmus-->
+
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="text-info black">highlights </h1>
+            <hr class="bg-info" style="width: 40%; font-size: medium; margin: 10px auto;">
+        </div>
+
+        <div class="col-12">
+            <p class="lead">The 2021-2027 Erasmus+ is more inclusive, more digital, and more green. It has opportunities
+                for all ages, and more
+                choice for organisations.</p>
+        </div>
+    </div>
+</div>
+<!--cardssss-->
+<!-- Card content -->
+<section class="p-5">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                <div class="card bg-secondary ">
+                    <div class="card-body text-center">
+
+                        <hr class="light" style="padding-left: 82px;">
+                        <h3 class="card-title mb-3" style="color: black;">Mission</h3>
+                        <p class="card-text">
+                            Erasmus+ has opportunities for people as well as organisations from all over the world.
+                        </p>
+                        <a href="#" class="btn btn-dark" routerLink="/MissionComponent">Read More <i
+                                class="fi fi-br-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <div class="card bg-secondary ">
+                    <div class="card-body text-center">
+                        <hr class="light" style="padding-left: 82px;">
+                        <h3 class="card-title mb-3" style="color: black;">Contact us</h3>
+                        <p class="card-text">
+                            If you have a problem click here to contact us
+                        </p>
+                        <br>
+                        <a class="nav-link" routerLink="/ContactComponent" class="btn btn-dark">click here </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-secondary ">
+                    <div class="card-body text-center">
+                        <hr class="light" style="padding-left: 82px;">
+                        <h3 class="card-title mb-3" style="color: black;">Upcoming Events </h3>
+                        <p class="card-text">
+                            see the next events
+
+                        </p> <br><br> <a href="EventsComponent" class="btn btn-dark">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Three column Section-->
+
+<div class="container-fluid padding">
+    <div class="row  text-center padding ">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <h2>What s new</h2>
+            <i class="fas fa-code"></i>
+            <h3>Name project</h3>
+            <p>date and desc </p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <h2>What s new</h2>
+            <i class="fas fa-bold"></i>
+            <h3>Name project</h3>
+            <p>date and desc</p>
+        </div>
+
+        <div class="col-sm-12 col-sm-6 col-md-4">
+            <h2>What s new</h2>
+            <i class="fab fa-css3"></i>
+            <h3>Name project</h3>
+            <p>date and desc</p>
+        </div>
+
+
+    </div>
+    <hr class="my-4">
+</div>
